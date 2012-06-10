@@ -1,0 +1,29 @@
+===== DESCRIPTION
+
+Unix command-line utility for creating files with random sizes of any specific size. Intended for creating test files on demand. Contains man page, uses Make to install (but easily installed without). Requires JRE 5 or greater
+
+===== MAN PAGE
+
+NAME
+       randomf - Random file generator
+
+SYNOPSIS
+       randomf [OPTION] DEST
+
+DESCRIPTION
+       Create a file of arbitrary size with random data. By default, the file is 1MB in size. To specify the size, see --size optional argument.
+
+       -h, --help                
+              Print this menu. Will not create any file if specified.
+       -s, --size                
+              Size of output file. (E.g., 512 represents 512 bytes.) Default value is 1MB. Optional units include B (bytes, default), KB, MB, GB.
+
+COPYRIGHT
+       No copyright or license information. Created June 25 2008. Free to use, modify and redistribute.
+
+AUTHOR
+       Written by Bryan Smith, bryanesmith@gmail.com
+
+REPORTING BUGS
+       Report bugs to <bryanesmith@gmail.com>
+
